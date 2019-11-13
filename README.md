@@ -1,5 +1,5 @@
 # Visual-Question-Answering-with-PyTorch
-This repository contains the implementations of [Simple Baseline for Visual Question Answering](https://arxiv.org/pdf/1512.02167.pdf) and [Hierarchical Question-Image Co-Attention for Visual Question Answering](https://arxiv.org/pdf/1505.00468v6.pdf).
+This repository contains the implementations of [Simple Baseline for Visual Question Answering](https://arxiv.org/pdf/1512.02167.pdf) and [Hierarchical Question-Image Co-Attention for Visual Question Answering](https://arxiv.org/pdf/1606.00061.pdf).
 ## Data Loader  
 A dataset loader for VQA (1.0 Real Images).Generally, for mapping the images and questions to the space of Tensors.
 Designed for three types of data that the model can process, the image, the question and the classification result. A transformer is tailored for large dataset, to separate the three channels in RGB resizing. Encoding the information as Tensors is also an essential requirement for the use of GPUs, CUDA in specific.
